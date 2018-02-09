@@ -1,0 +1,102 @@
+{
+    "dir": "ltr",
+    "lang": "nb",
+    "name": "Aalen-IT",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://aalen-it.no/",
+    "short_name": "Aalen-IT",
+    "theme_color": "transparent",
+    "description": "Web Development",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/1d8a0384-5ca5-5b0a-b878-41e3bcc59024.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/9093086e-9d3a-ea70-797b-da87f2cc31d7.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/aa114802-4466-4a74-25eb-d712483ca987.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a10a6763-e2a0-30df-b500-851df53cd4ce.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4da6e083-eedf-b73b-a877-33bf3451d995.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/13b38a46-357d-b743-27da-251c2ab3616b.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/053345fd-863f-e7db-f61f-60bade1dbda4.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3b5d818f-bde1-9dd5-09f1-818e474f8865.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c9fa1613-f492-7c10-99bb-4f760165db4e.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/286b611f-e844-4eca-c8e5-f1d04a8ff12c.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/31df4bb6-8d75-1e91-5ef8-3b65cf84867e.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a14c4ef3-03ad-08e7-e4a9-07a70da63116.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a2131085-8adb-d676-f97c-8c14ca395a82.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/ed980916-6dee-09ba-bb43-080e5e471670.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b841cb7f-590f-c3d0-5dbf-1325c13d81ab.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/2c790dfc-ac7c-0cfb-273f-d8a0cc4dff17.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8f2b79cb-34f5-29a8-454d-d8d50fa6d935.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#512c64"
+}

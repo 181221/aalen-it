@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Aalen-IT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="manifest" href="/manifest.json">
+		<link rel="icon" href="/images/3b5d818f-bde1-9dd5-09f1-818e474f8865.webPlatform.png" sizes="192x192" type="image/png">
+	    <!-- Add to home screen for Safari on iOS -->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <meta name="apple-mobile-web-app-title" content="Weather PWA">
+	    <link rel="apple-touch-icon" href="/images/b841cb7f-590f-c3d0-5dbf-1325c13d81ab.webPlatform.png">
+
+	    <!-- Tile Icon for Windows -->
+	    <meta name="msapplication-TileImage" content="/images/c9fa1613-f492-7c10-99bb-4f760165db4e.webPlatform.png">
+	    <meta name="msapplication-TileColor" content="#512c64">		
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Aalen IT</h1>
+						<p>Web utvikling! &nbsp;&bull;&nbsp; IT-tjenester! &nbsp;&bull;&nbsp; Telefon: <a href="tel:+4740615713">40 61 57 13</a> </p>
+						<nav>
+							<ul>
+								<li><a href="https://www.linkedin.com/in/peder-aalen/" class="icon fa-linkedin"><span class="label">Linked In</span></a></li>
+								<li><a href="https://github.com/181221/" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="mailto:p@aalen-it.no" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyrigth"><a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=920407455">Aalen IT</a> i samarbeid med <a href="https://kalli.no/">Kalli IT</a> &copy; 2018</span>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		
+			if (navigator.serviceWorker.controller) {
+			  console.log('[PWA Builder] active service worker found, no need to register')
+			} else {
+			  //Register the ServiceWorker
+			  navigator.serviceWorker.register('sw.js', {
+			    scope: './'
+			  }).then(function(reg) {
+			    console.log('Service worker has been registered for scope:'+ reg.scope);
+			  });
+			}
+		</script>
+	</body>
+</html>
